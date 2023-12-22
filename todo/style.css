@@ -1,0 +1,21 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+button {
+    margin-left: 15px;
+}
