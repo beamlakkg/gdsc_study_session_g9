@@ -1,0 +1,63 @@
+/* ShoppingCart.css */
+
+.container {
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  color: peru;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin: 8px 0;
+}
+
+input {
+  padding: 8px;
+  margin: 4px 0;
+}
+
+.addButton {
+  background-color: #4caf99;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cartTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.removeButton {
+  background-color: #ff6666;
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.totalPrice {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+}
